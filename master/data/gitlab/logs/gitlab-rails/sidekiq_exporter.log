@@ -1,0 +1,15 @@
+[2019-02-22 10:04:21] INFO  WEBrick 1.4.2
+[2019-02-22 10:04:21] INFO  ruby 2.5.3 (2018-10-18) [x86_64-linux]
+[2019-02-22 10:04:22] INFO  WEBrick::HTTPServer#start: pid=1061 port=8082
+[2019-02-22 10:04:28] 127.0.0.1 - - [22/Feb/2019:10:04:28 UTC] "GET /metrics HTTP/1.1" 200 645 "-" "Prometheus/2.5.0"
+[2019-02-22 10:04:42] 127.0.0.1 - - [22/Feb/2019:10:04:42 UTC] "GET /metrics HTTP/1.1" 200 645 "-" "Prometheus/2.5.0"
+[2019-02-22 10:04:59] 127.0.0.1 - - [22/Feb/2019:10:04:59 UTC] "GET /metrics HTTP/1.1" 200 652 "-" "Prometheus/2.5.0"
+[2019-02-22 10:11:28] INFO  WEBrick 1.4.2
+[2019-02-22 10:11:28] INFO  ruby 2.5.3 (2018-10-18) [x86_64-linux]
+[2019-02-22 10:11:29] INFO  WEBrick::HTTPServer#start: pid=622 port=8082
+[2019-02-22 10:11:39] 127.0.0.1 - - [22/Feb/2019:10:11:39 UTC] "GET /metrics HTTP/1.1" 200 667 "-" "Prometheus/2.5.0"
+[2019-02-22 10:11:53] 127.0.0.1 - - [22/Feb/2019:10:11:53 UTC] "GET /metrics HTTP/1.1" 200 667 "-" "Prometheus/2.5.0"
+[2019-02-22 10:12:08] 127.0.0.1 - - [22/Feb/2019:10:12:08 UTC] "GET /metrics HTTP/1.1" 200 667 "-" "Prometheus/2.5.0"
+[2019-02-22 10:12:23] 127.0.0.1 - - [22/Feb/2019:10:12:23 UTC] "GET /metrics HTTP/1.1" 200 661 "-" "Prometheus/2.5.0"
+[2019-02-22 10:12:25] INFO  going to shutdown ...
+[2019-02-22 10:12:25] INFO  WEBrick::HTTPServer#start done.

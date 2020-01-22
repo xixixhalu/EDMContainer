@@ -1,0 +1,18 @@
+2019-02-22_09:59:58.38058 time="2019-02-22T09:59:58Z" level=info msg=Starting version="gitlab-workhorse v8.0.2-20190206.111042"
+2019-02-22_09:59:58.38164 time="2019-02-22T09:59:58Z" level=fatal msg="Can not load config file" configFile=config.toml error="open config.toml: no such file or directory"
+2019-02-22_09:59:59.62872 time="2019-02-22T09:59:59Z" level=info msg=Starting version="gitlab-workhorse v8.0.2-20190206.111042"
+2019-02-22_09:59:59.64765 time="2019-02-22T09:59:59Z" level=info msg="keywatcher: starting process loop"
+2019-02-22_09:59:59.65313 time="2019-02-22T09:59:59Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2019-02-22_10:00:34.41159 time="2019-02-22T10:00:34Z" level=error msg=error correlation_id=QXVQf6CJe16 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:00:34.41394 localhost 127.0.0.1:0 - - [2019/02/22:10:00:34 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.031
+2019-02-22_10:01:35.76545 time="2019-02-22T10:01:35Z" level=error msg=error correlation_id=bZAuZ78E0T9 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:01:35.77000 localhost 127.0.0.1:0 - - [2019/02/22:10:01:35 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.050
+2019-02-22_10:02:37.79816 time="2019-02-22T10:02:37Z" level=error msg=error correlation_id=3BuCMFO3VA5 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:02:37.80889 localhost 127.0.0.1:0 - - [2019/02/22:10:02:37 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.139
+2019-02-22_10:03:42.79571 time="2019-02-22T10:03:42Z" level=error msg=error correlation_id=pAVHfgYrWh2 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:03:42.79991 localhost 127.0.0.1:0 - - [2019/02/22:10:03:42 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.021
+2019-02-22_10:04:37.01498 time="2019-02-22T10:04:37Z" level=info msg=Starting version="gitlab-workhorse v8.0.2-20190206.111042"
+2019-02-22_10:04:37.02069 time="2019-02-22T10:04:37Z" level=info msg="keywatcher: starting process loop"
+2019-02-22_10:04:37.02423 time="2019-02-22T10:04:37Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2019-02-22_10:04:43.94633 time="2019-02-22T10:04:43Z" level=error msg=error correlation_id=gWygZohmZo7 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:04:43.94757 localhost 127.0.0.1:0 - - [2019/02/22:10:04:43 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.016

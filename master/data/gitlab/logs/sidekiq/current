@@ -1,0 +1,21 @@
+2019-02-22_10:33:03.16218 2019-02-22T10:33:03.155Z 622 TID-otr1tkuby INFO: Booting Sidekiq 5.2.3 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-622", :url=>nil}
+2019-02-22_10:33:03.79229 2019-02-22T10:33:03.792Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2019-02-22_10:33:03.79391 2019-02-22T10:33:03.793Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2019-02-22_10:33:03.80142 2019-02-22T10:33:03.801Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2019-02-22_10:33:03.81243 2019-02-22T10:33:03.812Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: repository_check_worker
+2019-02-22_10:33:03.82107 2019-02-22T10:33:03.820Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: admin_email_worker
+2019-02-22_10:33:03.82421 2019-02-22T10:33:03.824Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2019-02-22_10:33:03.84205 2019-02-22T10:33:03.841Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: ci_archive_traces_cron_worker
+2019-02-22_10:33:03.85676 2019-02-22T10:33:03.856Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2019-02-22_10:33:03.86452 2019-02-22T10:33:03.864Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2019-02-22_10:33:03.87589 2019-02-22T10:33:03.875Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: requests_profiles_worker
+2019-02-22_10:33:03.88425 2019-02-22T10:33:03.884Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2019-02-22_10:33:03.88612 2019-02-22T10:33:03.886Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2019-02-22_10:33:03.89081 2019-02-22T10:33:03.890Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: prune_old_events_worker
+2019-02-22_10:33:03.89548 2019-02-22T10:33:03.895Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: trending_projects_worker
+2019-02-22_10:33:03.90412 2019-02-22T10:33:03.904Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2019-02-22_10:33:03.90761 2019-02-22T10:33:03.907Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2019-02-22_10:33:03.91208 2019-02-22T10:33:03.911Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2019-02-22_10:33:03.92646 2019-02-22T10:33:03.926Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2019-02-22_10:33:03.94419 2019-02-22T10:33:03.944Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: issue_due_scheduler_worker
+2019-02-22_10:33:03.96285 2019-02-22T10:33:03.962Z 622 TID-otr1tkuby INFO: Cron Jobs - add job with name: prune_web_hook_logs_worker

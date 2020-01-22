@@ -1,0 +1,27 @@
+ * Serving Flask app "startup" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+128.125.148.12 - - [02/Mar/2019 10:17:55] "GET / HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:17:55] "GET /static/css/global.css HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:17:55] "GET /static/img/avatar.png HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:17:55] "GET /static/css/homepage.css HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:17:55] "GET /static/img/edm_background_3.png HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:26:44] "POST /register HTTP/1.1" 302 -
+128.125.148.12 - - [02/Mar/2019 10:26:44] "GET / HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:26:44] "GET /static/css/user_profile.css HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:26:44] "GET /static/css/global.css HTTP/1.1" 304 -
+128.125.148.12 - - [02/Mar/2019 10:26:44] "GET /static/js/profile.js HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:26:44] "GET /static/img/edm_background_3.png HTTP/1.1" 304 -
+128.125.148.12 - - [02/Mar/2019 10:26:50] "GET /upload HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:26:50] "GET /static/css/global.css HTTP/1.1" 304 -
+128.125.148.12 - - [02/Mar/2019 10:26:50] "GET /static/img/edm_background_3.png HTTP/1.1" 304 -
+Writing output for /root/workspace/EDM/generated_code/User1/Composition/5c7a5a7bf9bf8d37a00de367/diagram.txt to diagram.svg
+128.125.148.12 - - [02/Mar/2019 10:27:08] "POST /result HTTP/1.1" 302 -
+128.125.148.12 - - [02/Mar/2019 10:27:08] "GET / HTTP/1.1" 200 -
+128.125.148.12 - - [02/Mar/2019 10:27:08] "GET /static/css/user_profile.css HTTP/1.1" 304 -
+128.125.148.12 - - [02/Mar/2019 10:27:08] "GET /static/css/global.css HTTP/1.1" 304 -
+128.125.148.12 - - [02/Mar/2019 10:27:08] "GET /static/js/profile.js HTTP/1.1" 304 -
+128.125.148.12 - - [02/Mar/2019 10:27:08] "GET /static/img/edm_background_3.png HTTP/1.1" 304 -

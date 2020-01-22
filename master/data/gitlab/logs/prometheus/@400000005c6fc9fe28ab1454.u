@@ -1,0 +1,57 @@
+2019-02-22_10:01:07.15241 level=info ts=2019-02-22T10:01:07.152323979Z caller=main.go:244 msg="Starting Prometheus" version="(version=2.5.0, branch=master, revision=)"
+2019-02-22_10:01:07.16351 level=info ts=2019-02-22T10:01:07.158341093Z caller=main.go:245 build_context="(go=go1.10.3, user=GitLab-Omnibus, date=)"
+2019-02-22_10:01:07.16351 level=info ts=2019-02-22T10:01:07.158422258Z caller=main.go:246 host_details="(Linux 4.18.16-x86_64-linode118 #1 SMP PREEMPT Mon Oct 29 15:38:25 UTC 2018 x86_64 3235043ebcff (none))"
+2019-02-22_10:01:07.16352 level=info ts=2019-02-22T10:01:07.158489135Z caller=main.go:247 fd_limits="(soft=50000, hard=50000)"
+2019-02-22_10:01:07.16352 level=info ts=2019-02-22T10:01:07.158517197Z caller=main.go:248 vm_limits="(soft=unlimited, hard=unlimited)"
+2019-02-22_10:01:07.16352 level=info ts=2019-02-22T10:01:07.161610805Z caller=main.go:562 msg="Starting TSDB ..."
+2019-02-22_10:01:07.19374 level=info ts=2019-02-22T10:01:07.193643017Z caller=web.go:399 component=web msg="Start listening for connections" address=localhost:9090
+2019-02-22_10:01:07.23522 level=info ts=2019-02-22T10:01:07.23515842Z caller=main.go:572 msg="TSDB started"
+2019-02-22_10:01:07.23527 level=info ts=2019-02-22T10:01:07.235256778Z caller=main.go:632 msg="Loading configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2019-02-22_10:01:07.25131 level=error ts=2019-02-22T10:01:07.251142509Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:01:07.25149 level=error ts=2019-02-22T10:01:07.251469037Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:01:07.25159 level=error ts=2019-02-22T10:01:07.251564357Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:01:07.25192 level=info ts=2019-02-22T10:01:07.251896215Z caller=main.go:658 msg="Completed loading of configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2019-02-22_10:01:07.25197 level=info ts=2019-02-22T10:01:07.251954906Z caller=main.go:531 msg="Server is ready to receive web requests."
+2019-02-22_10:04:43.14008 level=warn ts=2019-02-22T10:04:43.135516748Z caller=main.go:406 msg="Received SIGTERM, exiting gracefully..."
+2019-02-22_10:04:43.14110 level=info ts=2019-02-22T10:04:43.138339687Z caller=main.go:431 msg="Stopping scrape discovery manager..."
+2019-02-22_10:04:43.14111 level=info ts=2019-02-22T10:04:43.138679711Z caller=main.go:445 msg="Stopping notify discovery manager..."
+2019-02-22_10:04:43.14112 level=info ts=2019-02-22T10:04:43.138716241Z caller=main.go:467 msg="Stopping scrape manager..."
+2019-02-22_10:04:43.14113 level=info ts=2019-02-22T10:04:43.139481004Z caller=main.go:427 msg="Scrape discovery manager stopped"
+2019-02-22_10:04:43.14114 level=info ts=2019-02-22T10:04:43.140159917Z caller=main.go:441 msg="Notify discovery manager stopped"
+2019-02-22_10:04:43.14134 level=info ts=2019-02-22T10:04:43.141177087Z caller=manager.go:657 component="rule manager" msg="Stopping rule manager..."
+2019-02-22_10:04:43.14135 level=info ts=2019-02-22T10:04:43.141213795Z caller=manager.go:663 component="rule manager" msg="Rule manager stopped"
+2019-02-22_10:04:43.14510 level=info ts=2019-02-22T10:04:43.144890566Z caller=notifier.go:512 component=notifier msg="Stopping notification manager..."
+2019-02-22_10:04:43.14552 level=info ts=2019-02-22T10:04:43.145222968Z caller=main.go:616 msg="Notifier manager stopped"
+2019-02-22_10:04:43.14553 level=info ts=2019-02-22T10:04:43.145271578Z caller=main.go:461 msg="Scrape manager stopped"
+2019-02-22_10:04:43.15373 level=info ts=2019-02-22T10:04:43.153555997Z caller=main.go:628 msg="See you next time!"
+2019-02-22_10:04:43.94217 level=info ts=2019-02-22T10:04:43.942028255Z caller=main.go:244 msg="Starting Prometheus" version="(version=2.5.0, branch=master, revision=)"
+2019-02-22_10:04:43.97511 level=info ts=2019-02-22T10:04:43.974574719Z caller=main.go:245 build_context="(go=go1.10.3, user=GitLab-Omnibus, date=)"
+2019-02-22_10:04:43.98023 level=info ts=2019-02-22T10:04:43.979676061Z caller=main.go:246 host_details="(Linux 4.18.16-x86_64-linode118 #1 SMP PREEMPT Mon Oct 29 15:38:25 UTC 2018 x86_64 3235043ebcff (none))"
+2019-02-22_10:04:43.99059 level=info ts=2019-02-22T10:04:43.987410734Z caller=main.go:247 fd_limits="(soft=50000, hard=50000)"
+2019-02-22_10:04:43.99199 level=info ts=2019-02-22T10:04:43.991887854Z caller=main.go:248 vm_limits="(soft=unlimited, hard=unlimited)"
+2019-02-22_10:04:44.01215 level=info ts=2019-02-22T10:04:44.00992942Z caller=main.go:562 msg="Starting TSDB ..."
+2019-02-22_10:04:44.01331 level=info ts=2019-02-22T10:04:44.012556378Z caller=web.go:399 component=web msg="Start listening for connections" address=localhost:9090
+2019-02-22_10:04:45.64491 level=info ts=2019-02-22T10:04:45.644770907Z caller=main.go:572 msg="TSDB started"
+2019-02-22_10:04:45.64754 level=info ts=2019-02-22T10:04:45.647467465Z caller=main.go:632 msg="Loading configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2019-02-22_10:04:45.67159 level=error ts=2019-02-22T10:04:45.671495056Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:04:45.67546 level=error ts=2019-02-22T10:04:45.67537262Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:04:45.67854 level=error ts=2019-02-22T10:04:45.67846153Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:04:45.73518 level=info ts=2019-02-22T10:04:45.735111989Z caller=main.go:658 msg="Completed loading of configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2019-02-22_10:04:45.73743 level=info ts=2019-02-22T10:04:45.737371116Z caller=main.go:531 msg="Server is ready to receive web requests."
+2019-02-22_10:04:50.06281 level=info ts=2019-02-22T10:04:50.062601181Z caller=main.go:632 msg="Loading configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2019-02-22_10:04:50.07995 level=error ts=2019-02-22T10:04:50.079869401Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:04:50.08754 level=error ts=2019-02-22T10:04:50.087468463Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:04:50.08762 level=error ts=2019-02-22T10:04:50.087602146Z caller=manager.go:328 component="discovery manager scrape" msg="Cannot create service discovery" err="open /var/run/secrets/kubernetes.io/serviceaccount/token: no such file or directory" type=*kubernetes.SDConfig
+2019-02-22_10:04:50.11077 level=info ts=2019-02-22T10:04:50.100594071Z caller=main.go:658 msg="Completed loading of configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2019-02-22_10:05:11.37078 level=warn ts=2019-02-22T10:05:11.348802711Z caller=main.go:406 msg="Received SIGTERM, exiting gracefully..."
+2019-02-22_10:05:11.37329 level=info ts=2019-02-22T10:05:11.371060914Z caller=main.go:431 msg="Stopping scrape discovery manager..."
+2019-02-22_10:05:11.37330 level=info ts=2019-02-22T10:05:11.371884745Z caller=main.go:445 msg="Stopping notify discovery manager..."
+2019-02-22_10:05:11.37332 level=info ts=2019-02-22T10:05:11.371912251Z caller=main.go:467 msg="Stopping scrape manager..."
+2019-02-22_10:05:11.37801 level=info ts=2019-02-22T10:05:11.375151708Z caller=main.go:427 msg="Scrape discovery manager stopped"
+2019-02-22_10:05:11.37804 level=info ts=2019-02-22T10:05:11.377611096Z caller=main.go:441 msg="Notify discovery manager stopped"
+2019-02-22_10:05:11.37804 level=info ts=2019-02-22T10:05:11.377828387Z caller=manager.go:657 component="rule manager" msg="Stopping rule manager..."
+2019-02-22_10:05:11.37804 level=info ts=2019-02-22T10:05:11.377866203Z caller=manager.go:663 component="rule manager" msg="Rule manager stopped"
+2019-02-22_10:05:11.39501 level=info ts=2019-02-22T10:05:11.394628836Z caller=notifier.go:512 component=notifier msg="Stopping notification manager..."
+2019-02-22_10:05:11.39504 level=info ts=2019-02-22T10:05:11.39479187Z caller=main.go:616 msg="Notifier manager stopped"
+2019-02-22_10:05:11.39504 level=info ts=2019-02-22T10:05:11.394847303Z caller=main.go:461 msg="Scrape manager stopped"
+2019-02-22_10:05:11.40133 level=info ts=2019-02-22T10:05:11.40112556Z caller=main.go:628 msg="See you next time!"

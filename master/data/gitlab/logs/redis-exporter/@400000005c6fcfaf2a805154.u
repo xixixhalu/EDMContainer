@@ -1,0 +1,8 @@
+2019-02-22_10:07:42.71868 time="2019-02-22T10:07:42Z" level=info msg="Redis Metrics Exporter 0.20.2    build date: <<< filled in by build >>>    sha1: <<< filled in by build >>>    Go: go1.10.3" 
+2019-02-22_10:07:42.71911 time="2019-02-22T10:07:42Z" level=info msg="Providing metrics at localhost:9121/metrics" 
+2019-02-22_10:07:42.71916 time="2019-02-22T10:07:42Z" level=info msg="Connecting to redis hosts: []string{\"unix:///var/opt/gitlab/redis/redis.socket\"}" 
+2019-02-22_10:07:42.71920 time="2019-02-22T10:07:42Z" level=info msg="Using alias: []string{\"\"}" 
+2019-02-22_10:11:09.43895 time="2019-02-22T10:11:09Z" level=info msg="Redis Metrics Exporter 0.20.2    build date: <<< filled in by build >>>    sha1: <<< filled in by build >>>    Go: go1.10.3" 
+2019-02-22_10:11:09.44043 time="2019-02-22T10:11:09Z" level=info msg="Providing metrics at localhost:9121/metrics" 
+2019-02-22_10:11:09.44044 time="2019-02-22T10:11:09Z" level=info msg="Connecting to redis hosts: []string{\"unix:///var/opt/gitlab/redis/redis.socket\"}" 
+2019-02-22_10:11:09.44045 time="2019-02-22T10:11:09Z" level=info msg="Using alias: []string{\"\"}" 

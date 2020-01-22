@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="852bc912-93b2-420e-b211-0a6024497f7b" name="master" url="http://173.230.147.105">
+        <fileTransfer host="173.230.147.105" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/root/workspace" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+2019-02-22_10:07:14.48953 time="2019-02-22T10:07:14Z" level=info msg=Starting version="gitlab-workhorse v8.0.2-20190206.111042"
+2019-02-22_10:07:14.49986 time="2019-02-22T10:07:14Z" level=info msg="keywatcher: starting process loop"
+2019-02-22_10:07:14.49988 time="2019-02-22T10:07:14Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2019-02-22_10:08:22.28027 time="2019-02-22T10:08:22Z" level=error msg=error correlation_id=c55A8hHcUs9 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:08:22.28135 localhost 127.0.0.1:0 - - [2019/02/22:10:08:22 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.036
+2019-02-22_10:09:23.63126 time="2019-02-22T10:09:23Z" level=error msg=error correlation_id=ILw68erlCn4 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:09:23.63524 localhost 127.0.0.1:0 - - [2019/02/22:10:09:23 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.108
+2019-02-22_10:10:26.16231 time="2019-02-22T10:10:26Z" level=error msg=error correlation_id=XHvad5qrwD6 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:10:26.17081 localhost 127.0.0.1:0 - - [2019/02/22:10:10:26 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.047
+2019-02-22_10:11:04.73903 time="2019-02-22T10:11:04Z" level=info msg=Starting version="gitlab-workhorse v8.0.2-20190206.111042"
+2019-02-22_10:11:04.74989 time="2019-02-22T10:11:04Z" level=info msg="keywatcher: starting process loop"
+2019-02-22_10:11:04.75245 time="2019-02-22T10:11:04Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2019-02-22_10:11:27.36932 time="2019-02-22T10:11:27Z" level=error msg=error correlation_id=ZkcQYzF0Ah6 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-02-22_10:11:27.37006 localhost 127.0.0.1:0 - - [2019/02/22:10:11:27 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.071

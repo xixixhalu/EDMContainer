@@ -1,0 +1,11 @@
+2019-02-22_10:07:02.36212 starting new unicorn master
+2019-02-22_10:10:26.11628 master failed to start, check stderr log for details
+2019-02-22_10:10:27.22407 failed to start a new unicorn master
+2019-02-22_10:10:27.44769 starting new unicorn master
+2019-02-22_10:12:21.31690 adopted existing unicorn master 1027
+2019-02-22_10:14:33.79213 /opt/gitlab/embedded/bin/gitlab-unicorn-wrapper: line 148:  2332 Segmentation fault      sleep ${unicorn_poll_alive}
+2019-02-22_10:14:33.92614 wrapper for unicorn master 1027 exiting
+2019-02-22_10:14:47.14002 adopted existing unicorn master 1027
+2019-02-22_10:15:44.24044 master failed to start, check stderr log for details
+2019-02-22_10:15:45.10617 wrapper for unicorn master 1027 exiting
+2019-02-22_10:15:45.36485 starting new unicorn master

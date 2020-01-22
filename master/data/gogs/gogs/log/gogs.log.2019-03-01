@@ -1,0 +1,17 @@
+2019/02/23 04:53:49 [ INFO] Gogs 0.11.88.0220
+2019/02/23 04:53:49 [ INFO] Cache Service Enabled
+2019/02/23 04:53:49 [ INFO] Session Service Enabled
+2019/02/23 04:53:50 [ INFO] Git Version: 2.20.1
+2019/02/23 04:53:50 [ INFO] Git config user.name set to Gogs
+2019/02/23 04:53:50 [ INFO] Git config user.email set to gogs@fake.local
+2019/02/23 04:53:50 [ INFO] SQLite3 Supported
+2019/02/23 04:53:50 [ INFO] Run Mode: Production
+2019/02/23 04:53:50 [ INFO] First-time run install finished!
+2019/02/23 06:40:51 [ INFO] Gogs 0.11.88.0220
+2019/02/23 06:40:51 [ INFO] Cache Service Enabled
+2019/02/23 06:40:51 [ INFO] Session Service Enabled
+2019/02/23 06:40:51 [ INFO] Git Version: 2.20.1
+2019/02/23 06:40:51 [ INFO] SQLite3 Supported
+2019/02/23 06:40:51 [ INFO] Run Mode: Production
+2019/02/23 06:40:52 [ INFO] Listen: http://0.0.0.0:3000
+2019/03/02 00:19:15 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/project_name.git: no such file or directory

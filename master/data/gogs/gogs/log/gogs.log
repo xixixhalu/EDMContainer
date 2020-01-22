@@ -1,0 +1,53 @@
+2019/03/02 00:22:57 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/pro.git: no such file or directory
+2019/03/02 00:24:18 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/pro.git: no such file or directory
+2019/03/02 00:24:24 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/pro.git: no such file or directory
+2019/03/02 00:26:35 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/helloworld.git: no such file or directory
+2019/03/02 00:31:16 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/helloworld.git: no such file or directory
+2019/03/02 00:35:01 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/helloworld.git: no such file or directory
+2019/03/02 00:37:01 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/helloworld.git: no such file or directory
+2019/03/02 00:38:22 [ERROR] [.../routes/repo/repo.go:103 handleCreateError()] CreatePost: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/test.git: no such file or directory
+2019/03/02 00:42:01 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/helloworld.git: no such file or directory
+2019/03/02 00:42:38 [ERROR] [.../routes/repo/repo.go:103 handleCreateError()] CreatePost: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/test.git: no such file or directory
+2019/03/02 00:45:07 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin1/helloworld.git: no such file or directory
+2019/03/02 00:52:25 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/user1/helloworld.git: no such file or directory
+2019/03/02 00:53:55 [ INFO] Gogs 0.11.88.0220
+2019/03/02 00:53:55 [ INFO] Cache Service Enabled
+2019/03/02 00:53:55 [ INFO] Session Service Enabled
+2019/03/02 00:53:55 [ INFO] Git Version: 2.20.1
+2019/03/02 00:53:55 [ INFO] SQLite3 Supported
+2019/03/02 00:53:55 [ INFO] Run Mode: Production
+2019/03/02 00:53:55 [ INFO] Listen: http://0.0.0.0:3000
+2019/03/02 00:54:34 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/pro.git: no such file or directory
+2019/03/02 00:54:48 [ INFO] Gogs 0.11.88.0220
+2019/03/02 00:54:48 [ INFO] Cache Service Enabled
+2019/03/02 00:54:48 [ INFO] Session Service Enabled
+2019/03/02 00:54:49 [ INFO] Git Version: 2.20.1
+2019/03/02 00:54:49 [ INFO] SQLite3 Supported
+2019/03/02 00:54:49 [ INFO] Run Mode: Production
+2019/03/02 00:54:49 [ INFO] Listen: http://0.0.0.0:3000
+2019/03/02 03:28:36 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/generalization.git: no such file or directory
+2019/03/02 03:29:15 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/generalization.git: no such file or directory
+2019/03/02 03:30:15 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/generalization.git: no such file or directory
+2019/03/02 03:30:21 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/generalization.git: no such file or directory
+2019/03/02 03:30:53 [ INFO] Gogs 0.11.88.0220
+2019/03/02 03:30:53 [ INFO] Cache Service Enabled
+2019/03/02 03:30:53 [ INFO] Session Service Enabled
+2019/03/02 03:30:53 [ INFO] Git Version: 2.20.1
+2019/03/02 03:30:53 [ INFO] SQLite3 Supported
+2019/03/02 03:30:53 [ INFO] Run Mode: Production
+2019/03/02 03:30:54 [ INFO] Listen: http://0.0.0.0:3000
+2019/03/02 03:34:29 [ INFO] Gogs 0.11.88.0220
+2019/03/02 03:34:29 [ INFO] Cache Service Enabled
+2019/03/02 03:34:29 [ INFO] Session Service Enabled
+2019/03/02 03:34:29 [ INFO] Git Version: 2.20.1
+2019/03/02 03:34:29 [ INFO] SQLite3 Supported
+2019/03/02 03:34:29 [ INFO] Run Mode: Production
+2019/03/02 03:34:29 [ INFO] Listen: http://0.0.0.0:3000
+2019/03/02 03:36:34 [ERROR] [.../api/v1/repo/repo.go:178 CreateUserRepo()] CreateRepository: initRepository: InitRepository: chdir /data/git/gogs-repositories/liuyin/generalization.git: no such file or directory
+2019/03/02 03:36:49 [ INFO] Gogs 0.11.88.0220
+2019/03/02 03:36:49 [ INFO] Cache Service Enabled
+2019/03/02 03:36:49 [ INFO] Session Service Enabled
+2019/03/02 03:36:49 [ INFO] Git Version: 2.20.1
+2019/03/02 03:36:49 [ INFO] SQLite3 Supported
+2019/03/02 03:36:49 [ INFO] Run Mode: Production
+2019/03/02 03:36:50 [ INFO] Listen: http://0.0.0.0:3000
