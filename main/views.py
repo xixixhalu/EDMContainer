@@ -20,7 +20,7 @@ import time
 import commands
 import json
 
-
+from utilities import container_op
 from database_manager.setup import mgInstance
 from uml_parser.parse_dm_file import Analyzer as p
 from authentication.User import User
@@ -240,65 +240,18 @@ def result():
 def run_instance():
     if request.method == 'POST':
         base_path = os.path.join(config.get('Output', 'output_path'))
-        user_path = "/" + session['username']
-        instance_path = "/" + request.form['domainModelName'] + "/" + request.form['fileId']
-        server_path = "/" + "Server" + "/" #+ "Server.js"
-
-	# Jun Guo : the past way to run the server
-#        final_path = base_path + user_path + instance_path + server_path
-
-#        child_process = sp.Popen(["npm", "run", "launch"], cwd=final_path)
-#        # Temporary solution..
-#        time.sleep(0.5)
-
-#        if child_process.poll() == None:
-#            flash('Successful to run the specified instance')
-#        else:
-#            flash('Failed to run the specified instance')
+        username = session['username']
+        domain_model_name = request.form['domainModelName']
         file_id = request.form['fileId']
-        final_path = base_path + user_path + instance_path
-	
-        _code,serviceCount = commands.getstatusoutput("docker service ls | grep " + file_id + "_web | awk '{print $4}' | cut -d / -f 1")
 
-        if serviceCount == '0':
-            print "service stopped, restarting ... "
-#            os.system("docker service update --replicas 1 " + file_id + "_db")
-#            os.system("docker service update --replicas 1 " + file_id + "_web")
-            os.system("docker service scale " + file_id + "_db=1 " + file_id + "_web=1")
-            
-
-            flash('Successful to run the specified instance')
-            dbOps.registerRunningInstance(mgInstance.mongo, session['username'],request.form['domainModelName'], request.form['fileId']);
-            return redirect(url_for('main_bp.index'))
-        else:
-            print "no service"
-
-  
-
-        # Jun Guo :  create stack
-        os.system('docker stack deploy -c ' + final_path + '/docker-compose.yaml ' + file_id)
-
-        # Get published port
-        _code,port = commands.getstatusoutput('docker service inspect --format "{{ (index .Endpoint.Ports 0).PublishedPort }}" ' + file_id + "_web")
-
-        # Jun Guo : Check whether service is available
-        retry_time, iter_no = 50, 0
-        _code,state = commands.getstatusoutput("docker service ps " + file_id + "_web | awk '{print $6}' | sed -n '2p'")
-        
-        while state != 'Running' and iter_no < retry_time:
-            _code,state = commands.getstatusoutput("docker service ps " + file_id + "_web | awk '{print $6}' | sed -n '2p'")  
-            time.sleep(0.5)
-            iter_no += 1
-          
+        instance_start_status = container_op.start_container(base_path, username, domain_model_name, file_id)
    
-        if iter_no >= 50:
-            flash('Failed to run the specificed instance')
-        else:
+        if instance_start_status:
+            dbOps.registerRunningInstance(mgInstance.mongo, username, domain_model_name, file_id)
             flash('Successful to run the specified instance')
-            dbOps.registerRunningInstance(mgInstance.mongo, session['username'], 
-                                        request.form['domainModelName'], request.form['fileId']);    
-            return redirect(url_for('main_bp.index'))
-
+        else:
+            flash('Failed to run the specificed instance')
+            
     return redirect(url_for('main_bp.index'))
 
 #Stop the specified instance
