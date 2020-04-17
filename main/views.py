@@ -391,7 +391,8 @@ def delete_instance():
         fileOps.safe_delete_dir(file_dir)
 
         # Jun Guo : delete docker service
-        os.system('docker stack rm '+request.form['fileId'])
+        container_op.delete_container(file_id)
+        # os.system('docker stack rm '+request.form['fileId'])
 
 
         flash('Successfully deleted')
