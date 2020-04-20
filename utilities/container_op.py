@@ -16,13 +16,18 @@ def start_container(base_path, username, domain_model_name, file_id):
     else:
         return True
 
-
-def stop_container(user_name, project_name, instance_id):
+def stop_container(base_path, username, domain_model_name, file_id):
     """
     Stop containers
     """
-    return
-
+    cmd = "bash ./utilities/container_stop.sh {} {} {} {}".format(base_path, username, domain_model_name, file_id)
+    _code,output = commands.getstatusoutput(cmd)
+    print(output)
+    status = output.split("\n")[-1]
+    if status == "False":
+        return False
+    else:
+        return True
 
 def delete_container(file_id):
     cmd = "bash ./utilities/container_delete.sh {}".format(file_id)
@@ -32,5 +37,5 @@ def delete_container(file_id):
 
 
 
-
+        
 

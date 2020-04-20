@@ -260,40 +260,22 @@ def run_instance():
 def stop_instance():
     if request.method == 'POST':
         base_path = os.path.join(config.get('Output', 'output_path'))
-        user_path = "/" + session['username']
-        instance_path = "/" + request.form['domainModelName'] + "/" + request.form['fileId']
-        server_path = "/" + "Server" + "/" #+ "Server.js"
-
-        final_path = base_path + user_path + instance_path + server_path
-
-#        child_process = sp.Popen(["npm", "run", "forever_stop"], cwd=final_path)
-#        # Temporary solution..
-#        time.sleep(0.5)
-
-#        if child_process.poll() == None:
-#            flash('Successful to stop the specified instance')
-#        else:
-#            flash('Failed to stop the specified instance')
-
-        # Jun Guo : stop the service
+        username = session['username']
+        domain_model_name = request.form['domainModelName']
         file_id = request.form['fileId']
-        os.system("docker service update --replicas 0 " + file_id + "_web")
-        os.system("docker service update --replicas 0 " + file_id + "_db")
 
-        time.sleep(5)
+        # call stop_container() to run the bash and some extra work and then return if this stop ope is succesful 
+        instance_stop_status = container_op.stop_container(base_path, username, domain_model_name, file_id)
 
-        _code,serviceCount = commands.getstatusoutput("docker service ls | grep " + file_id + "_web | awk '{print $4}' | cut -d / -f 1")
-        
-        if serviceCount == '0':
+
+        # status == True: successful stop it
+        if instance_stop_status:
             flash('Successful to stop the specified instance')
+            dbOps.stopRunningInstance(mgInstance.mongo, username, domain_model_name, file_id)
         else:
             flash('Failed to stop the specified instance')
+        
 
-
-        dbOps.stopRunningInstance(mgInstance.mongo, session['username'], 
-                                        request.form['domainModelName'], request.form['fileId']);    
-
-        return redirect(url_for('main_bp.index'))
     return redirect(url_for('main_bp.index'))
 
 
